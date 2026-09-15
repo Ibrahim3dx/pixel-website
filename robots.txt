@@ -1,0 +1,30 @@
+﻿User-agent: *
+Allow: /
+
+# AI crawlers — allow full access for indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+Sitemap: https://pixel.com.ly/sitemap.xml
+Sitemap: https://pixel.com.ly/llms.txt

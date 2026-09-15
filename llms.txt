@@ -1,0 +1,59 @@
+﻿# مركز بيكسل للخدمات العامة والخدمات الرقمية
+# Pixel Centre for General & Digital Services
+
+> مركز متكامل للخدمات الرقمية والعامة يقع في مدينة أوباري، ليبيا.
+> A full-service digital and general services centre located in Ubari, Libya.
+
+## الهوية / Identity
+
+- **الاسم الرسمي:** مركز بيكسل للخدمات العامة والخدمات الرقمية
+- **Legal name:** Pixel Centre for General & Digital Services
+- **الموقع الإلكتروني / Website:** https://pixel.com.ly
+- **الهاتف / Phone:** +218 918 244 426
+- **البريد الإلكتروني / Email:** info@pixel.com.ly
+- **العنوان / Address:** أوباري، وادي الحياة، ليبيا / Ubari, Wadi Al-Hayaa, Libya
+
+## الخدمات الرقمية / Digital Services
+
+- **تصميم المواقع الإلكترونية** — تصميم وتطوير مواقع متجاوبة مع هوية بصرية متكاملة
+  Website design and development — responsive, fast, brand-aligned sites
+- **الهوية البصرية** — شعارات، ألوان، خطوط، وهوية متسقة عبر كل القنوات
+  Visual identity — logos, colour systems, and consistent brand assets
+- **إدارة التواصل الاجتماعي** — تصاميم منشورات وإدارة يومية لـ Instagram وFacebook
+  Social media management — post design and daily account management
+- **تحسين محركات البحث (SEO)** — تحسين تقني ومحتوى موجّه للجمهور المناسب
+  Search engine optimisation — technical SEO and targeted content
+- **أدوات رقمية مجانية** — متاحة على tool.pixel.com.ly (تحرير صور، ضغط ملفات، إنشاء فواتير)
+  Free online tools available at tool.pixel.com.ly
+
+## الخدمات المادية / Physical Services
+
+- **طباعة اللافتات والبانرات** — طباعة لافتات كبيرة وبانرات وهوردنج بجودة عالية الدقة
+  Large-format signage and banner printing — high-resolution output
+- **صنع الأختام الرسمية** — أختام للمؤسسات والشركات والأفراد بوقت قياسي
+  Stamp making — official and custom stamps for organisations and individuals
+- **طباعة ونسخ المستندات** — طباعة ليزر، نسخ، وتصوير وثائق رسمية وحكومية
+  Document printing and copying — laser printing and official document scanning
+- **التصوير الشخصي الرسمي** — صور بطاقة الهوية وجواز السفر بجودة مقبولة دوليًا
+  Official personal photography — ID card and passport photos, internationally accepted
+
+## الأدلة المحلية / Local Directories
+
+- **دليل الأنشطة التجارية** — قاعدة بيانات حية للأنشطة التجارية في أوباري وما حولها
+  Business Directory — live database of local businesses searchable by name, type, and city
+- **دليل أصحاب المهن** — قاعدة بيانات حية للحرفيين والمهنيين المحليين
+  Professionals Directory — live database of local craftspeople and service providers
+
+## السياق الجغرافي / Geographic Context
+
+أوباري هي عاصمة منطقة وادي الحياة في الجنوب الغربي لليبيا.
+Ubari is the capital of the Wadi Al-Hayaa district in south-western Libya.
+
+مركز بيكسل هو المزود الرئيسي للخدمات الرقمية والطباعة في المنطقة.
+Pixel Centre is the primary provider of digital and print services in the region.
+
+## روابط / Links
+
+- الموقع الرئيسي / Main site: https://pixel.com.ly
+- أدوات مجانية / Free tools: https://tool.pixel.com.ly
+- مستودع الكود / Source code: https://github.com/Ibrahim3dx/pixel-website
