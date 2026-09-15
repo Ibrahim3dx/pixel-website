@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>بيكسل — تصميم مواقع وخدمات رقمية | Pixel</title>
+  <meta name="description" content="بيكسل وكالة رقمية متخصصة في تصميم المواقع، الدعاية والإعلان، خدمات الطباعة، ودليل الأنشطة التجارية بأوباري وما حولها." />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Instrument Serif (EN display) | Work Sans (EN body) | Alyamama (AR display) | Almarai (AR body) -->
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Alyamama:wght@300..900&family=Instrument+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Kufi+Arabic:wght@100..900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header" id="top">
+    <nav class="nav-inner">
+      <a href="#top" class="nav-logo" aria-label="بيكسل">
+        <img src="logo.png" alt="Pixel" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <span class="logo-fallback" style="display:none">بيكسل</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a></li>
+        <li><a href="#directory-business" data-ar="دليل الأنشطة" data-en="Business Dir.">دليل الأنشطة</a></li>
+        <li><a href="#directory-pros" data-ar="دليل المهن" data-en="Professionals">دليل المهن</a></li>
+        <li><a href="#tools" data-ar="أدواتنا" data-en="Tools">أدواتنا</a></li>
+        <li><a href="#print" data-ar="طباعة وإعلام" data-en="Print & Media">طباعة وإعلام</a></li>
+        <li><a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
+      </ul>
+
+      <div class="nav-end">
+        <!-- Language toggle -->
+        <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+          <span class="lang-toggle__ar">AR</span>
+          <span class="lang-toggle__sep">/</span>
+          <span class="lang-toggle__en">EN</span>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="فتح القائمة" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <div class="nav-mobile" id="nav-menu" hidden>
+      <ul role="list">
+        <li><a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a></li>
+        <li><a href="#directory-business" data-ar="دليل الأنشطة" data-en="Business Dir.">دليل الأنشطة</a></li>
+        <li><a href="#directory-pros" data-ar="دليل المهن" data-en="Professionals">دليل المهن</a></li>
+        <li><a href="#tools" data-ar="أدواتنا" data-en="Tools">أدواتنا</a></li>
+        <li><a href="#print" data-ar="طباعة وإعلام" data-en="Print & Media">طباعة وإعلام</a></li>
+        <li><a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-labelledby="hero-headline">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <p class="hero-eyebrow" data-ar="وكالة رقمية — أوباري، ليبيا" data-en="Digital Agency — Ubari, Libya">وكالة رقمية — أوباري، ليبيا</p>
+          <h1 id="hero-headline" class="hero-headline"
+              data-ar="نصمّم حضوركم<br>الرقمي من الصفر"
+              data-en="We craft your digital<br>presence from scratch">نصمّم حضوركم<br>الرقمي من الصفر</h1>
+          <p class="hero-body"
+             data-ar="من تصميم المواقع وإدارة هويتكم البصرية إلى الطباعة والدعاية والإعلام — بيكسل شريككم لكل ما يُرى."
+             data-en="From website design and visual identity to print, advertising, and media — Pixel is your partner for everything that's seen.">من تصميم المواقع وإدارة هويتكم البصرية إلى الطباعة والدعاية والإعلام — بيكسل شريككم لكل ما يُرى.</p>
+          <div class="hero-cta-row">
+            <a href="#contact" class="btn btn-primary" data-ar="ابدأ مشروعك" data-en="Start your project">ابدأ مشروعك</a>
+            <a href="#services" class="btn btn-ghost" data-ar="اكتشف الخدمات" data-en="Explore services">اكتشف الخدمات</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-mark">
+            <span class="hero-mark-px" lang="en" dir="ltr">Px</span>
+            <div class="hero-mark-line"></div>
+            <span class="hero-mark-sub" lang="en" dir="ltr">WE MAKE YOU BIGGER</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEB SERVICES -->
+    <section class="section section-services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="services-heading" class="section-title"
+              data-ar="خدمات الويب والتصميم الرقمي"
+              data-en="Web & Digital Design Services">خدمات الويب والتصميم الرقمي</h2>
+          <p class="section-sub"
+             data-ar="نبني تجارب رقمية تعكس هوية عملائنا بدقة واحترافية."
+             data-en="We build digital experiences that reflect our clients' identity with precision and professionalism.">نبني تجارب رقمية تعكس هوية عملائنا بدقة واحترافية.</p>
+        </header>
+        <div class="services-grid">
+          <article class="service-card service-card--featured" aria-labelledby="svc-web-title">
+            <div class="service-card__tag" data-ar="الخدمة الرئيسية" data-en="Flagship Service">الخدمة الرئيسية</div>
+            <h3 id="svc-web-title" class="service-card__title"
+                data-ar="تصميم المواقع الإلكترونية"
+                data-en="Website Design">تصميم المواقع الإلكترونية</h3>
+            <p class="service-card__body"
+               data-ar="مواقع سريعة وجميلة ومتجاوبة مع جميع الأجهزة. نصمّم من الهوية البصرية حتى الإطلاق الكامل — هوية، واجهة، وبرمجة."
+               data-en="Fast, beautiful, responsive websites. We design from visual identity to full launch — branding, UI, and development.">مواقع سريعة وجميلة ومتجاوبة مع جميع الأجهزة. نصمّم من الهوية البصرية حتى الإطلاق الكامل — هوية، واجهة، وبرمجة.</p>
+            <ul class="service-card__list">
+              <li data-ar="تصميم UI/UX" data-en="UI/UX Design">تصميم UI/UX</li>
+              <li data-ar="برمجة وتطوير كامل" data-en="Full-stack Development">برمجة وتطوير كامل</li>
+              <li data-ar="متاجر إلكترونية" data-en="E-commerce Stores">متاجر إلكترونية</li>
+              <li data-ar="صيانة ودعم مستمر" data-en="Ongoing Support">صيانة ودعم مستمر</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary service-cta"
+               data-ar="اطلب عرض سعر" data-en="Request a quote">اطلب عرض سعر</a>
+          </article>
+          <article class="service-card" aria-labelledby="svc-brand-title">
+            <h3 id="svc-brand-title" class="service-card__title"
+                data-ar="الهوية البصرية" data-en="Visual Identity">الهوية البصرية</h3>
+            <p class="service-card__body"
+               data-ar="شعارات، ألوان، خطوط — نبني هوية متسقة تنقل رسالتكم بصريًا عبر كل قناة."
+               data-en="Logos, colour palettes, typography — we build a consistent identity that communicates your message across every channel.">شعارات، ألوان، خطوط — نبني هوية متسقة تنقل رسالتكم بصريًا عبر كل قناة.</p>
+          </article>
+          <article class="service-card" aria-labelledby="svc-sm-title">
+            <h3 id="svc-sm-title" class="service-card__title"
+                data-ar="إدارة التواصل الاجتماعي" data-en="Social Media Management">إدارة التواصل الاجتماعي</h3>
+            <p class="service-card__body"
+               data-ar="تصاميم منشورات، جدول محتوى، وإدارة يومية لحسابات Instagram وFacebook."
+               data-en="Post design, content calendar, and daily management for Instagram and Facebook accounts.">تصاميم منشورات، جدول محتوى، وإدارة يومية لحسابات Instagram وFacebook.</p>
+          </article>
+          <article class="service-card" aria-labelledby="svc-seo-title">
+            <h3 id="svc-seo-title" class="service-card__title"
+                data-ar="تحسين محركات البحث" data-en="Search Engine Optimisation">تحسين محركات البحث</h3>
+            <p class="service-card__body"
+               data-ar="نرفع ترتيب موقعكم في Google عبر تحسين تقني ومحتوى موجّه للجمهور المناسب."
+               data-en="We improve your Google ranking through technical optimisation and content tailored to the right audience.">نرفع ترتيب موقعكم في Google عبر تحسين تقني ومحتوى موجّه للجمهور المناسب.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BUSINESS DIRECTORY -->
+    <section class="section section-directory section--grey" id="directory-business" aria-labelledby="dir-biz-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="dir-biz-heading" class="section-title"
+              data-ar="دليل الأنشطة التجارية"
+              data-en="Business Directory">دليل الأنشطة التجارية</h2>
+          <p class="section-sub"
+             data-ar="ابحث عن أنشطة تجارية في منطقتنا واتصل مباشرةً."
+             data-en="Search local businesses and contact them directly.">ابحث عن أنشطة تجارية في منطقتنا واتصل مباشرةً.</p>
+        </header>
+
+        <div class="dir-controls">
+          <input type="search" id="biz-search" class="dir-search"
+            placeholder="ابحث عن نشاط أو مدينة…"
+            aria-label="البحث في دليل الأنشطة"
+            data-placeholder-ar="ابحث عن نشاط أو مدينة…"
+            data-placeholder-en="Search business or city…"
+            dir="rtl" autocomplete="off" />
+          <select id="biz-filter-city" class="dir-filter" aria-label="تصفية حسب المدينة">
+            <option value="" data-ar="كل المدن" data-en="All cities">كل المدن</option>
+          </select>
+          <select id="biz-filter-type" class="dir-filter" aria-label="تصفية حسب نوع النشاط">
+            <option value="" data-ar="كل الأنواع" data-en="All types">كل الأنواع</option>
+          </select>
+          <a href="#" class="btn btn-ghost btn--sm dir-viewall" id="biz-viewall"
+             target="_blank" rel="noopener"
+             data-ar="عرض الكل" data-en="View all">عرض الكل</a>
+        </div>
+
+        <!-- Collapsed state: shown when no query -->
+        <div class="dir-collapsed" id="biz-collapsed">
+          <p class="dir-collapsed__hint" data-ar="ابدأ بالبحث أو اختر فئة لعرض النتائج." data-en="Start searching or pick a filter to see results.">ابدأ بالبحث أو اختر فئة لعرض النتائج.</p>
+        </div>
+
+        <div class="dir-status hidden" id="biz-status" aria-live="polite" role="status">
+          <span class="loading-spinner" aria-hidden="true"></span>
+          <span data-ar="جار تحميل البيانات…" data-en="Loading data…">جار تحميل البيانات…</span>
+        </div>
+
+        <div class="table-wrapper" id="biz-table-wrapper" hidden>
+          <table class="dir-table" id="biz-table" aria-labelledby="dir-biz-heading">
+            <thead>
+              <tr>
+                <th scope="col" class="sortable" data-col="0" aria-sort="none" data-ar="إسم النشاط" data-en="Business Name">إسم النشاط</th>
+                <th scope="col" class="sortable" data-col="1" aria-sort="none" data-ar="نوع النشاط" data-en="Category">نوع النشاط</th>
+                <th scope="col" class="sortable" data-col="2" aria-sort="none" data-ar="المدينة" data-en="City">المدينة</th>
+                <th scope="col" data-ar="رقم الهاتف" data-en="Phone">رقم الهاتف</th>
+              </tr>
+            </thead>
+            <tbody id="biz-tbody"></tbody>
+          </table>
+        </div>
+        <p class="dir-count" id="biz-count" hidden></p>
+      </div>
+    </section>
+
+    <!-- PROFESSIONALS DIRECTORY -->
+    <section class="section section-directory" id="directory-pros" aria-labelledby="dir-pros-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="dir-pros-heading" class="section-title"
+              data-ar="دليل أصحاب المهن"
+              data-en="Professionals Directory">دليل أصحاب المهن</h2>
+          <p class="section-sub"
+             data-ar="تواصل مع الحرفيين والمهنيين المحليين — كهربائيين، سبّاكين، مصورين والمزيد."
+             data-en="Connect with local craftspeople and professionals — electricians, plumbers, photographers, and more.">تواصل مع الحرفيين والمهنيين المحليين — كهربائيين، سبّاكين، مصورين والمزيد.</p>
+        </header>
+
+        <div class="dir-controls">
+          <input type="search" id="pros-search" class="dir-search"
+            placeholder="ابحث عن اسم أو مهنة…"
+            aria-label="البحث في دليل المهن"
+            data-placeholder-ar="ابحث عن اسم أو مهنة…"
+            data-placeholder-en="Search name or profession…"
+            dir="rtl" autocomplete="off" />
+          <select id="pros-filter-city" class="dir-filter" aria-label="تصفية حسب المدينة">
+            <option value="" data-ar="كل المدن" data-en="All cities">كل المدن</option>
+          </select>
+          <select id="pros-filter-craft" class="dir-filter" aria-label="تصفية حسب المهنة">
+            <option value="" data-ar="كل المهن" data-en="All professions">كل المهن</option>
+          </select>
+          <a href="#" class="btn btn-ghost btn--sm dir-viewall" id="pros-viewall"
+             target="_blank" rel="noopener"
+             data-ar="عرض الكل" data-en="View all">عرض الكل</a>
+        </div>
+
+        <div class="dir-collapsed" id="pros-collapsed">
+          <p class="dir-collapsed__hint" data-ar="ابدأ بالبحث أو اختر فئة لعرض النتائج." data-en="Start searching or pick a filter to see results.">ابدأ بالبحث أو اختر فئة لعرض النتائج.</p>
+        </div>
+
+        <div class="dir-status hidden" id="pros-status" aria-live="polite" role="status">
+          <span class="loading-spinner" aria-hidden="true"></span>
+          <span data-ar="جار تحميل البيانات…" data-en="Loading data…">جار تحميل البيانات…</span>
+        </div>
+
+        <div class="table-wrapper" id="pros-table-wrapper" hidden>
+          <table class="dir-table" id="pros-table" aria-labelledby="dir-pros-heading">
+            <thead>
+              <tr>
+                <th scope="col" class="sortable" data-col="0" aria-sort="none" data-ar="الإسم" data-en="Name">الإسم</th>
+                <th scope="col" class="sortable" data-col="1" aria-sort="none" data-ar="الحرفة أو المهنة" data-en="Profession">الحرفة أو المهنة</th>
+                <th scope="col" class="sortable" data-col="2" aria-sort="none" data-ar="المدينة" data-en="City">المدينة</th>
+                <th scope="col" data-ar="رقم الهاتف" data-en="Phone">رقم الهاتف</th>
+              </tr>
+            </thead>
+            <tbody id="pros-tbody"></tbody>
+          </table>
+        </div>
+        <p class="dir-count" id="pros-count" hidden></p>
+      </div>
+    </section>
+
+    <!-- FREE TOOLS -->
+    <section class="section section-tools section--grey" id="tools" aria-labelledby="tools-heading">
+      <div class="container">
+        <div class="tools-block">
+          <div class="tools-text">
+            <h2 id="tools-heading" class="section-title"
+                data-ar="أدوات مجانية عبر الإنترنت"
+                data-en="Free Online Tools">أدوات مجانية عبر الإنترنت</h2>
+            <p class="tools-body"
+               data-ar="مجموعة من الأدوات الرقمية المجانية صُمّمت لمساعدة المشاريع الصغيرة والمهنيين — من تحرير الصور إلى إنشاء الفواتير وضغط الملفات."
+               data-en="A suite of free digital tools designed to help small businesses and professionals — from image editing to invoice generation and file compression.">مجموعة من الأدوات الرقمية المجانية صُمّمت لمساعدة المشاريع الصغيرة والمهنيين — من تحرير الصور إلى إنشاء الفواتير وضغط الملفات.</p>
+            <a href="https://tool.pixel.com.ly" target="_blank" rel="noopener noreferrer"
+               class="btn btn-primary" id="tools-cta"
+               data-ar="اذهب إلى الأدوات" data-en="Go to Tools">اذهب إلى الأدوات</a>
+          </div>
+          <div class="tools-visual" aria-hidden="true">
+            <div class="tools-grid-preview">
+              <div class="tg-item" data-ar="تحرير صور" data-en="Image editing">تحرير صور</div>
+              <div class="tg-item" data-ar="ضغط ملفات" data-en="File compression">ضغط ملفات</div>
+              <div class="tg-item" data-ar="إنشاء فواتير" data-en="Invoice builder">إنشاء فواتير</div>
+              <div class="tg-item" data-ar="تحويل PDF" data-en="PDF converter">تحويل PDF</div>
+              <div class="tg-item" data-ar="قص فيديو" data-en="Video trimmer">قص فيديو</div>
+              <div class="tg-item tg-item--more" data-ar="+ المزيد" data-en="+ More">+ المزيد</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRINT & MEDIA -->
+    <section class="section section-print" id="print" aria-labelledby="print-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="print-heading" class="section-title"
+              data-ar="طباعة، إعلام، وخدمات مادية"
+              data-en="Print, Media & Physical Services">طباعة، إعلام، وخدمات مادية</h2>
+          <p class="section-sub"
+             data-ar="من الشاشات الكبيرة إلى المستندات الرسمية — نوفر خدمات إنتاج متكاملة تحت سقف واحد."
+             data-en="From large-format signage to official documents — full production services under one roof.">من الشاشات الكبيرة إلى المستندات الرسمية — نوفر خدمات إنتاج متكاملة تحت سقف واحد.</p>
+        </header>
+        <div class="print-grid">
+          <article class="print-card" aria-labelledby="pr-signage">
+            <div class="print-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="10" width="40" height="26" rx="1" stroke="currentColor" stroke-width="2"/>
+                <line x1="24" y1="36" x2="24" y2="44" stroke="currentColor" stroke-width="2"/>
+                <line x1="14" y1="44" x2="34" y2="44" stroke="currentColor" stroke-width="2"/>
+                <rect x="10" y="16" width="20" height="2" rx="1" fill="currentColor"/>
+                <rect x="10" y="22" width="14" height="2" rx="1" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 id="pr-signage" class="print-card__title" data-ar="لافتات ولوحات إعلانية" data-en="Signage & Billboards">لافتات ولوحات إعلانية</h3>
+            <p class="print-card__body" data-ar="تصميم وطباعة اللافتات الكبيرة والبانرات والهوردنج بجودة عالية الدقة." data-en="Design and printing of large-format banners, signs, and billboards in high resolution.">تصميم وطباعة اللافتات الكبيرة والبانرات والهوردنج بجودة عالية الدقة.</p>
+          </article>
+          <article class="print-card" aria-labelledby="pr-stamp">
+            <div class="print-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="6" width="20" height="18" rx="1" stroke="currentColor" stroke-width="2"/>
+                <rect x="10" y="24" width="28" height="6" rx="1" stroke="currentColor" stroke-width="2"/>
+                <rect x="6" y="38" width="36" height="4" rx="1" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3 id="pr-stamp" class="print-card__title" data-ar="صنع الأختام" data-en="Stamp Making">صنع الأختام</h3>
+            <p class="print-card__body" data-ar="أختام رسمية ومخصصة للمؤسسات والشركات والأفراد — تُنجز في وقت قياسي." data-en="Official and custom stamps for organisations, businesses, and individuals — delivered promptly.">أختام رسمية ومخصصة للمؤسسات والشركات والأفراد — تُنجز في وقت قياسي.</p>
+          </article>
+          <article class="print-card" aria-labelledby="pr-docs">
+            <div class="print-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 6h18l8 8v28a2 2 0 01-2 2H12a2 2 0 01-2-2V8a2 2 0 012-2z" stroke="currentColor" stroke-width="2"/>
+                <path d="M30 6v8h8" stroke="currentColor" stroke-width="2"/>
+                <line x1="16" y1="22" x2="32" y2="22" stroke="currentColor" stroke-width="2"/>
+                <line x1="16" y1="28" x2="32" y2="28" stroke="currentColor" stroke-width="2"/>
+                <line x1="16" y1="34" x2="24" y2="34" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3 id="pr-docs" class="print-card__title" data-ar="طباعة ونسخ المستندات" data-en="Document Printing & Copying">طباعة ونسخ المستندات</h3>
+            <p class="print-card__body" data-ar="طباعة ليزر عالية الجودة، نسخ، تصوير الوثائق الرسمية، والمستندات الحكومية." data-en="High-quality laser printing, copying, and scanning of official and government documents.">طباعة ليزر عالية الجودة، نسخ، تصوير الوثائق الرسمية، والمستندات الحكومية.</p>
+          </article>
+          <article class="print-card" aria-labelledby="pr-photo">
+            <div class="print-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="12" width="40" height="28" rx="2" stroke="currentColor" stroke-width="2"/>
+                <circle cx="24" cy="26" r="8" stroke="currentColor" stroke-width="2"/>
+                <circle cx="24" cy="26" r="4" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="30" y="6" width="10" height="6" rx="1" stroke="currentColor" stroke-width="2"/>
+                <circle cx="10" cy="18" r="2" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 id="pr-photo" class="print-card__title" data-ar="التصوير الشخصي الرسمي" data-en="Official Personal Photography">التصوير الشخصي الرسمي</h3>
+            <p class="print-card__body" data-ar="صور بطاقة الهوية، جواز السفر، والوثائق الرسمية — بجودة مقبولة دوليًا." data-en="ID card, passport, and official document photos — internationally accepted quality.">صور بطاقة الهوية، جواز السفر، والوثائق الرسمية — بجودة مقبولة دوليًا.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="contact" aria-labelledby="footer-contact-heading">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#top" class="footer-logo-link" aria-label="بيكسل">
+            <img src="logo.png" alt="Pixel" class="footer-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+            <span class="logo-fallback-footer" style="display:none">بيكسل</span>
+          </a>
+          <p class="footer-tagline footer-tagline--en" lang="en" dir="ltr">WE MAKE YOU BIGGER</p>
+        </div>
+        <nav class="footer-nav" aria-label="روابط الموقع">
+          <h3 id="footer-contact-heading" class="footer-nav__title" data-ar="الموقع" data-en="Site">الموقع</h3>
+          <ul role="list">
+            <li><a href="#services" data-ar="خدمات الويب" data-en="Web Services">خدمات الويب</a></li>
+            <li><a href="#directory-business" data-ar="دليل الأنشطة" data-en="Business Directory">دليل الأنشطة</a></li>
+            <li><a href="#directory-pros" data-ar="دليل المهن" data-en="Professionals">دليل المهن</a></li>
+            <li><a href="#tools" data-ar="أدوات مجانية" data-en="Free Tools">أدوات مجانية</a></li>
+            <li><a href="#print" data-ar="طباعة وإعلام" data-en="Print & Media">طباعة وإعلام</a></li>
+          </ul>
+        </nav>
+        <div class="footer-contact">
+          <h3 class="footer-nav__title" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</h3>
+          <address class="footer-address">
+            <p><span class="footer-contact__label" data-ar="العنوان" data-en="Address">العنوان</span><br /><span data-ar="مركز بيكسل للخدمات العامة والخدمات الرقمية — أوباري، ليبيا" data-en="Pixel Centre for General & Digital Services — Ubari, Libya">مركز بيكسل للخدمات العامة والخدمات الرقمية — أوباري، ليبيا</span></p>
+            <p><span class="footer-contact__label" data-ar="الهاتف" data-en="Phone">الهاتف</span><br /><a href="tel:+218918244426" dir="ltr">0918 244 426</a></p>
+            <p><span class="footer-contact__label" data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</span><br /><a href="mailto:info@pixel.com.ly">info@pixel.com.ly</a></p>
+            <p><span class="footer-contact__label" data-ar="الموقع الإلكتروني" data-en="Website">الموقع الإلكتروني</span><br /><a href="https://pixel.com.ly" target="_blank" rel="noopener">pixel.com.ly</a></p>
+          </address>
+        </div>
+        <div class="footer-tools-promo">
+          <h3 class="footer-nav__title" data-ar="الأدوات المجانية" data-en="Free Tools">الأدوات المجانية</h3>
+          <p data-ar="استخدم أدوات بيكسل الرقمية المجانية لتطوير عملك." data-en="Use Pixel's free digital tools to grow your business.">استخدم أدوات بيكسل الرقمية المجانية لتطوير عملك.</p>
+          <a href="https://tool.pixel.com.ly" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn--sm">tool.pixel.com.ly</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; <span id="year"></span> <span data-ar="مركز بيكسل للخدمات العامة والخدمات الرقمية — جميع الحقوق محفوظة" data-en="Pixel Centre for General &amp; Digital Services — All rights reserved.">مركز بيكسل للخدمات العامة والخدمات الرقمية — جميع الحقوق محفوظة</span></p>
+        <p class="footer-copy footer-copy--en" lang="en" dir="ltr">Pixel Centre for General &amp; Digital Services — Ubari, Libya</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
